@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WrapLinearLayout">
+        <attr name="wrapNumColumns" format="string" />
+        <attr name="wrapNumRows" format="string" />
+        <attr name="wrapHorizonalSpaceing" format="dimension" />
+        <attr name="wrapVerticalSpaceing" format="dimension" />
+    </declare-styleable>
+</resources>
