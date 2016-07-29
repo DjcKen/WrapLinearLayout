@@ -1,4 +1,3 @@
-*.iml
 .gradle
 /local.properties
 /.idea/workspace.xml
@@ -6,3 +5,78 @@
 .DS_Store
 /build
 /captures
+
+#Android generated
+bin
+gen
+proguard
+
+#Eclipse
+.project
+.classpath
+.settings
+
+#IntelliJ IDEA
+.idea
+*.iml
+classes
+
+#Command line
+build.xml
+proguard-project.txt
+
+
+#build
+build/
+/*/build/
+
+# Gradle generated files
+.gradle/
+
+##############my configs
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+proguard/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+.DS_Store
+project.properties
